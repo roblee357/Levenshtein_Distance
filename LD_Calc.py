@@ -7,7 +7,7 @@ import itertools
 
 # I. Preprocess data
 # 1. Read urls from CSV
-# Source https://www.visualcapitalist.com/ranking-the-top-100-websites-in-the-world/
+# Source https://ahrefs.com/blog/most-visited-websites/
 # Formatted in Excel to csv
 websites = pd.read_csv('websites.csv')
 # 2. Remove protocal and Top-level Domain
